@@ -13,4 +13,4 @@ Pobierz historyczne zdjęcia z kamer (Generalna Dyrekcja Dróg Krajowych i Autos
 * "mądrzejsze" parsowanie zdjęć, są to klatki co 5 minut +- pare sekund, należy wykrywać w jakim czasie zdjęcia dla
 danej kamery są dodawane
 * refaktoryzacja całkowita kodu (najlepiej napisać od zera)
- 
+* implementacja algorytmu wykrywania tablic rejestracyjnych  

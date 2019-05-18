@@ -44,7 +44,7 @@ def parse():
                             print("file exists.. skiping")
                             break
                         else:
-                            url = 'https://sonatina.traxelektronik.pl/images/2019/2/' + day + '/922/cam0922_1011_90' + cam + '_2019_' + month + '_' + day_formatted + '_' + hours + '_' + mins + '_' + sec + '.jpg'
+                            url = 'https://sonatina.traxelektronik.pl/images/2019/4/' + day + '/922/cam0087_119_220' + cam + '_2019_' + month + '_' + day_formatted + '_' + hours + '_' + mins + '_' + sec + '.jpg'
                             browser.get(url)
                             if len(browser.title) > 0:
                                 response = requests.get(url, stream=True)
